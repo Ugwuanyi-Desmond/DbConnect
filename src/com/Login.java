@@ -106,7 +106,7 @@ public class Login extends JFrame {
 						JOptionPane.showMessageDialog(null, "Login Succesfull...");
 					}
 					else{
-						JOptionPane.showMessageDialog(null, "Incorrect Username or Password");
+						JOptionPane.showMessageDialog(null, "Incorrect Username or Password", "Oops", JOptionPane.ERROR_MESSAGE);
 						txtUsername.setText(null);
 						txtPassword.setText(null);
 						txtUsername.requestFocusInWindow();
